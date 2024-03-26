@@ -31,7 +31,7 @@ interface DictRepository {
         override suspend fun deleteAll() = dao.deleteAll()
 
         companion object {
-            private const val DATABASE_NAME = "word_data_database24"
+            private const val DATABASE_NAME = "test"
         }
     }
 }
